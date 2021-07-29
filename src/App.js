@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import './App.css';
 import TodoItem from "./Todoitem";
-import todosData from "./todosData"
+import todosData from "./todosData";
+import './App.css';
 
 class App extends Component { 
   constructor() {
@@ -39,7 +39,7 @@ class App extends Component {
 
     return (
       <div>
-      <h1>To Do List</h1>
+      <h1><u>To Do List</u></h1>
         {todoItems /*here we are rendering the completed mapped version of the todosData with
         template written in Todoitem.js*/} 
       </div>
